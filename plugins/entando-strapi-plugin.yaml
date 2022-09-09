@@ -1,0 +1,11 @@
+descriptorVersion: "v4" 
+image: hussainnv/strapi-test_9sep:1.0.0
+dbms: postgresql
+deploymentBaseName: "strapi-hussain-5"
+ingressPath: "/entando-strapi"
+healthCheckPath: "/api/health"
+environmentVariables:
+  - name: APP_KEYS
+    value: d7/z/PPaArO3nkPFYqMhcA==,Xnzh44U2iBz4QHqlkTSFKQ==,6n4lTEEmgYz5RlyXHqJoHw==,/n5BgevtXCzfXoPD914GLw==
+roles:
+  - "admin"

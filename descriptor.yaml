@@ -1,0 +1,6 @@
+code: ent-prj-strapi-test-6
+description: Template for ent projects 5
+components:
+  plugins:
+    - plugins/entando-strapi-plugin.yaml
+
